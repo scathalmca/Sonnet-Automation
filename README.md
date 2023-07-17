@@ -4,6 +4,8 @@ Tools designed to extract Resonant Frequency &amp; Coupling Quality Factor for M
 The scripts in this repository allow the extraction of Resonant Frqeuency &amp; Qc from a .csv data file exported from the EM Simulation Software _Sonnet_.
 The main purpose of these scripts is to automate the extraction of data from large Sonnet data sets and thus the scripts provided here will automate the extraction of Resonant Frequency and Qc for _any number of parameter sweeps_.
 
+**Please Note:** These Scripts will only work with 1 single resonant dip to correctly extract f0 &amp; Qc.
+
 Resonant Frequency (**f0**) is extracted by finding the minimum S21 value for a given frequency range.
 
 **$Q_{C}$** is extracted by calculating the Full-Width Half-Max of the S21 dip. Normally, ($Q_{Total} = \frac{f0}{FWHM}$) & $\frac{1}{Q_{Total}}=\frac{1}{Q_{i}} + \frac{1}{Q_{C}}$, however $Q_{i} \rightarrow \inf$ in Sonnet and so $Q_{Total} \approx Q_{C}$.
