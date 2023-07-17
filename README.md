@@ -5,4 +5,4 @@ The scripts in this repository allow the extraction of Resonant Frqeuency &amp; 
 
 Resonant Frequency (**f0**) is extracted by finding the minimum S21 value for a given frequency range.
 
-**Qc** is extracted by calculating the Full-Width Half-Max of the S21 dip. Normally, ($Q_{Total} = \frac{f0}{FWHM}$)****
+**$Q_{C}$** is extracted by calculating the Full-Width Half-Max of the S21 dip. Normally, ($Q_{Total} = \frac{f0}{FWHM}$) & $\frac{1}{Q_{Total}}=\frac{1}{Q_{i}} + \frac{1}{Q_{C}}$
