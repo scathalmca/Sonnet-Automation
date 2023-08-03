@@ -8,7 +8,7 @@ The main purpose of these scripts is to automate the extraction of data from lar
 
 Resonant Frequency (**f0**) is extracted by finding the minimum S21 value for a given frequency range.
 
-**$Q_{C}$** is extracted by calculating the Full-Width Half-Max of the S21 dip. Normally, ($Q_{Total} = \frac{f0}{FWHM}$) & $\frac{1}{Q_{Total}}=\frac{1}{Q_{i}} + \frac{1}{Q_{C}}$, however $Q_{i} \rightarrow \inf$ in Sonnet and so $Q_{Total} \approx Q_{C}$.
+**$Q_{C}$** is extracted by calculating the Full-Width Half-Max of the S21 dip. Normally, ($Q_{Total} = \frac{f0}{FWHM}$) & $\frac{1}{Q_{Total}}=\frac{1}{Q_{i}} + \frac{1}{Q_{C}}$, however $Q_{i} \rightarrow \infty$ in Sonnet and so $Q_{Total} \approx Q_{C}$.
 
 ## Outputting Data From Sonnet
 **Please note:** Ensure the data exported from Sonnet is in the form of S-Paramter, Mag and Phase for accurate values.
